@@ -5,5 +5,5 @@ My technology stack:
 1.Angular
 2.Less
 3.SwiperJs
-4.NgZorro liblary for Angular
+4.NgZorro
 5. ngx-mask
