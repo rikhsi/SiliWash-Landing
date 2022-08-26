@@ -2,8 +2,9 @@ Advertising site for the SiliWash application
 
 My technology stack: 
 
-1.Angular
+1.HTML 5
 2.Less
-3.SwiperJs
-4.NgZorro
-5. ngx-mask
+3.Angular
+4.SwiperJs
+5.NgZorro
+6. ngx-mask
