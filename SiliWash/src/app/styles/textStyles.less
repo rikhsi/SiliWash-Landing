@@ -1,0 +1,27 @@
+@import './colorStyles.less';
+
+.textStyles(@fw, @fz, @lh, @color) {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: @fw;
+    font-size: @fz;
+    line-height: @lh;
+    color: @color;
+}
+
+.title() {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 120%;
+    color: @deepBlue;
+
+    @media (max-width:1199px) {
+        font-size: 48px;
+    }
+
+    @media (max-width:767px) {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,115 @@
+@import url('../../styles/buttonStyles.less');
+@import url('../../styles/textStyles.less');
+@import url('../../styles/colorStyles.less');
+
+//ngZorroStyles
+[nz-dropdown] {
+    .textStyles(700, 20px, 18px, @deepBlue);
+
+    @media (max-width:767px) {
+        margin-right: 8px;
+    }
+}
+
+[nz-menu] {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}
+
+[nz-menu-item] {
+    padding: 8px;
+    border-radius: 8px;
+    .textStyles(700, 20px, 18px, @deepBlue);
+
+    &:hover {
+        background: @purple;
+    }
+
+    &:active {
+        background: @purple;
+    }
+}
+
+[nz-button] {
+    .defaultButtonStyles();
+}
+
+//--------------------------------
+
+.wrapper {
+    width: 100%;
+    height: 102px;
+    padding: 0 36px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background: @white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+
+    @media (max-width:767px) {
+        height: 72px;
+        padding: 0 16px;
+    }
+}
+
+.container {
+    flex: 1 1 auto;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+
+    @media (max-width:767px) {
+        svg {
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
+
+.number {
+    .textStyles(600, 20px, 18px, @deepBlue);
+
+    &__tel {
+        @media (max-width:1199px) {
+            display: none;
+        }
+    }
+
+    &__icon {
+        display: none;
+
+        @media (max-width:1199px) {
+            display: inline-block;
+        }
+    }
+}
+
+.button {
+    @media (max-width:767px) {
+        display: none;
+    }
+}
+
+.disabled {
+    color: @deepBlue;
+    background: rgba(232, 230, 230, 0.932);
+
+    &:hover {
+        background: rgba(232, 230, 230, 0.932);
+    }
+
+    &:active {
+        background: @purple;
+        transition: 0.1ms;
+    }
+}

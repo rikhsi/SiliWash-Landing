@@ -1,0 +1,65 @@
+{
+    "buttons": {
+        "consultation": "Maslahat olish",
+        "form": "Yuborish",
+        "alert": "Qaytish"
+    },
+    "form": {
+        "title": "Sili Wash-ni bepul sinab ko'ring!",
+        "info": "Hoziroq so'rov qoldiring va menejerimiz siz bilan bog'lanadi.",
+        "day": "Birinchi 15 kun bepul.",
+        "clientName": "Ism",
+        "clientNameError": "Iltimos, ismingizni kiriting!",
+        "clientNumber": "Telefon raqam",
+        "clientNumberError": "Iltimos, telefon raqamingizni kiriting!"
+    },
+    "alert": {
+        "title": "Murojaatingiz uchun rahmat yuborildi!",
+        "info": "Menejerimiz tez orada siz bilan bog'lanadi"
+    },
+    "banner": {
+        "title": "Mashina yuvishni avtomatlashtirish",
+        "info": "Sizga kerak bo'lgan barchasi yagona tizimda:buyurtma tarixi, ishchilar bazasi, xizmat ko'rsatish katalogi hamda moliyaviy tahlil."
+    },
+    "help": {
+        "title": "Bizning dasturimiz qanday yordam beradi?",
+        "info": "Asosiy maqsad foydani maksimal darajada oshirish va xarajatlarni kamaytirishdir",
+        "card_1": {
+            "title": "Tezkor start",
+            "info": "Sili Wash interfeysi sodda va intuitivdir - ish ma'muri dasturni ishga tushiri bilanoq qanday ishlashini tushunib oladi"
+        },
+        "card_2": {
+            "title": "Oflayn rejim",
+            "info": "Buyurtmalarni internet bo`lmasa ham qabul qilishingiz mumkin. Tarmoq qayta tiklanishi bilanoq barchasi tizimga kiritiladi."
+        },
+        "card_3": {
+            "title": "To'lovdan ko'ra ko'proq",
+            "info": "Avtomobil yuvish xizmatlari ishlashini kuzatib boring, mijozlar bazasi , statistikani yuriting va boshqa ko'p narsalar."
+        },
+        "card_4": {
+            "title": "Barchasi bir tizimda",
+            "info": "Biz tezlik, barqarorlik va funksionallikni qadrlaymiz. Shu sababli, Sili Wash-da buyurtmalar bilan ishlash, ularning bajarilishini nazorat qilish va korxonani boshqarish oson va tezdir."
+        },
+        "card_5": {
+            "title": "Kun tartibi hisoboti",
+            "info": "Kun oxirida hammasidan xabardor bo'lish uchun  hisobotni ko'rib chiqing va tahlil qiling."
+        },
+        "card_6": {
+            "title": "Buyurtmalar arxivi",
+            "info": "Buyurtma haqida ma'lumotni qidirishingiz kerak bo'lsa yoki mijoz buyurtma bo'yicha savollar bilan qaytgan bo'lsa, arxivdan kerakli buyurtmani osongina topishingiz mumkin."
+        }
+    },
+    "sale": {
+        "title": "Savdoni avtomatlashtirish",
+        "info": "Kassa, mijozlar va xodimlar bilan ishlash buxgalteriya hisoboti, savdo tahlili,va yana ko'p narsalar bitta tizimda",
+        "text": "Bepul mobil ilova bilan Korxonangizni smartfoningizdan boshqaring .Silli Wash iOS va Android uchun mavjud."
+    },
+    "free": {
+        "title": " Ma`mur uchun qulay ishlash  joy",
+        "info": {
+            "first": "Oddiy planshetlarda ishlaydi",
+            "second": "Ilova bilar tanishib chiqish onson",
+            "third": "Internet mavjud bo`lmasa ham, ishlash imkoniyati"
+        }
+    }
+}

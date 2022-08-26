@@ -1,0 +1,51 @@
+@import url('../../styles/buttonStyles.less');
+@import url('../../styles/textStyles.less');
+@import url('../../styles/colorStyles.less');
+
+//ngZorroStyles
+[nz-button] {
+    .modalButtonStyles();
+    .textStyles(700, 24px, 33px, @white);
+
+    @media (max-width:767px) {
+        font-size: 16px;
+    }
+}
+
+//-----------------------------------
+
+.container {
+    padding: 48px 38px;
+    max-width: 672px;
+
+    @media (max-width:767px) {
+        max-width: 328px;
+    }
+
+    @media (max-width:767px) {
+        padding: 24px 16px;
+    }
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    .textStyles(800, 48px, 120%, @white);
+
+    @media (max-width:767px) {
+        font-size: 36px;
+    }
+}
+
+.info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    .textStyles(400, 24px, 33px, @white);
+
+    @media (max-width:767px) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

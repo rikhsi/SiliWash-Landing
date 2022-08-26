@@ -1,0 +1,93 @@
+@import '../../../styles/buttonStyles.less';
+@import '../../../styles/textStyles.less';
+@import '../../../styles/colorStyles.less';
+
+//ngZorroStyles
+
+[nz-form] {
+    display: flex;
+    gap: 24px;
+
+    @media (max-width:1199px) {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+nz-form-item {
+    width: 40%;
+    display: inline-flex;
+
+    @media (max-width:1199px) {
+        display: inline-flex;
+        width: 100%;
+    }
+}
+
+[nz-input] {
+    display: inline-block;
+    width: 100%;
+    height: 65px;
+    padding: 16px;
+    background: @white;
+    border: 1px solid #D3DDEC;
+    border-radius: 16px;
+    .textStyles(400, 24px, 33px, @deepBlue);
+
+    @media (max-width:767px) {
+        font-size: 16px;
+        height: 54px;
+    }
+
+    &::placeholder {
+        text-align: center;
+        .textStyles(400, 24px, 33px, @deepBlue);
+
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+    }
+}
+
+[nz-button] {
+    .formButtonStyles();
+    .textStyles(700, 24px, 33px, @white);
+}
+
+//---------------------
+
+.container {
+    padding: 48px 48px 24px 48px;
+    background: @blue;
+    border-radius: 48px;
+
+    @media (max-width:767px) {
+        padding: 24px 16px;
+        border-radius: 24px;
+    }
+}
+
+.title {
+    .title();
+    text-align: center;
+    color: @white;
+}
+
+.info {
+    .textStyles(400, 32px, 44px, @white);
+    text-align: center;
+
+    @media (max-width:1199px) {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    @media (max-width:767px) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+.button {
+    display: inline-flex;
+}

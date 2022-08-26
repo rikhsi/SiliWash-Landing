@@ -1,0 +1,47 @@
+@import '../../../styles/textStyles.less';
+@import '../../../styles/colorStyles.less';
+
+.titles {
+    text-align: center;
+
+    h1 {
+        .title();
+    }
+
+    h3 {
+        .textStyles(400, 32px, 44px, @deepBlue);
+
+        @media (max-width: 991px) {
+            font-size: 24px;
+            line-height: 33px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+}
+
+.card {
+    img {
+        width: 96px;
+        height: 96px;
+        object-fit: cover;
+    }
+
+    &__title {
+        text-align: center;
+        .textStyles(800, 28px, 120%, @deepBlue);
+    }
+
+    &__text {
+        text-align: center;
+        .textStyles(400, 20px, 27px, @deepBlue);
+
+        @media (max-width:1199px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+}
